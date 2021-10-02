@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(to top right, rgb(117, 4, 112), rgb(167, 5, 5));
+  /* background: linear-gradient(45deg, #58c39f, #4350d1); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button {
+  padding: 8px;
+  border-radius: 6px;
+  /*Change the width as much as you like, but make sure 
+    margin-left and margin-right + width = 100%*/
+    width:10%;
+    margin-left:45%;
+    margin-right:65%;
+}
+
+
+.b{
+    text-align: center;
+}
+button:hover{
+    width: 15%;
+    color: rgb(17, 4, 94);
+  background-color: rgb(208, 255, 0);
+  }
+
+  .container {
+    display: block;
+    width: 50%;
+    height: 60vh;
+    /* max-height: auto; */
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin: auto;
+  }
