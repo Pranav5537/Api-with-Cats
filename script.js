@@ -18,7 +18,7 @@ async function getData()
     //  variable to display image in DOM
 
         output =`${data[0].url}`    
-        document.querySelector("#output").src = output ;
+        document.querySelector("#image").src = output ;
 
     } catch (error){
         console.log(error, " unable to fetch data")
